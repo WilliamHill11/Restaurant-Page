@@ -1,5 +1,3 @@
-import { container } from './loadFile';
+import loadFile from './loadFile';
 
 let log = console.log;
-
-log(container);
