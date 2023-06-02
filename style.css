@@ -14,3 +14,52 @@ body {
   height: 100vh;
   background-size: cover;
 }
+
+.header {
+  height: 125px;
+  background-color: rgba(14, 8, 8, 0.4);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+}
+
+.home,
+.menu,
+.contact {
+  font-size: 2em;
+  font-weight: bold;
+  color: brown;
+  font-family: cursive;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 4em auto;
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  background-color: rgba(9, 9, 9, 0.4);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+  color: rgba(165, 23, 23, 0.749);
+  font-family: cursive;
+  font-size: 3rem;
+}
+
+.homeText {
+  font-size: 2em;
+  line-height: 1.25em;
+  padding: 0.25em 3em;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
