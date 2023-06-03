@@ -34,6 +34,7 @@ body {
   font-weight: bold;
   color: brown;
   font-family: cursive;
+  cursor: pointer;
 }
 
 .body {
@@ -50,16 +51,16 @@ body {
 .title {
   display: flex;
   justify-content: center;
-  padding-top: 1em;
+  padding-top: 0.25em;
   color: rgba(165, 23, 23, 0.749);
   font-family: cursive;
   font-size: 3rem;
 }
 
 .homeText {
-  font-size: 2em;
-  line-height: 1.25em;
+  font-size: 1.5em;
+  line-height: 1.5em;
   padding: 0.25em 3em;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive;
 }

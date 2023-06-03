@@ -30,4 +30,4 @@ function createNav() {
 container.appendChild(createNav());
 container.appendChild(createHome);
 
-export default container;
+export default createNav();
