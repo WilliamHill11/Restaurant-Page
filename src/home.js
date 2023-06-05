@@ -1,9 +1,5 @@
-import { container } from './loadFile';
-import { body } from './loadFile';
-
 function createHome() {
   const home = document.createElement('div');
-  // home.classList.add('yolo')
 
   const title = document.createElement('h1');
   title.textContent = 'Chef La Ras';
