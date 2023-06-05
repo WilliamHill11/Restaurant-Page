@@ -1,6 +1,9 @@
+import HOME from './home';
 import createHome from './home';
 
 export const container = document.querySelector('#content');
+export const body = document.createElement('div');
+body.classList.add('body');
 
 function createNav() {
   const header = document.createElement('header');
@@ -29,5 +32,7 @@ function createNav() {
 
 container.appendChild(createNav());
 container.appendChild(createHome);
+container.appendChild(body);
+body.appendChild(HOME);
 
 export default createNav();
