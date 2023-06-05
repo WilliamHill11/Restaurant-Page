@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  background-color: rgb(140, 35, 35);
   background-image: url(./img/img.jpg);
   background-repeat: no-repeat;
   width: 100vw;

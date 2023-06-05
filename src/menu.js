@@ -1,4 +1,4 @@
-import container from './loadFile';
+import { container } from './loadFile';
 
 function createMenu() {
   const firstItem = document.createElement('h2');

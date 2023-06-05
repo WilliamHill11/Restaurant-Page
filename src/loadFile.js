@@ -1,6 +1,6 @@
 import createHome from './home';
 
-const container = document.querySelector('#content');
+export const container = document.querySelector('#content');
 
 function createNav() {
   const header = document.createElement('header');
